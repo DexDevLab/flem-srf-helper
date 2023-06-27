@@ -81,7 +81,7 @@ Aplicação utilizada para aprovar justificativas de ausência do SRF em lote, p
 
 <br>
 
-- [Manual do Usuário](https://frtechdev.github.io/flem-ppe-frontend/resources/srf_helper_manual_do_usuario.pdf)
+- [Manual do Usuário](https://frtechdev.github.io/flem-srf-helper/resources/srf_helper_manual_do_usuario.pdf)
 
 Documentação adicional pode ser encontrada [aqui](https://frtechdev.github.io/flem-srf-helper/).
 
@@ -179,6 +179,10 @@ Para mais informações, visite a [Documentação do Docker](https://docs.docker
 </a>
 
 <br>
+
+### v1.0.3-230627
+
+- Atualização da Documentação
 
 ### v1.0.2-230627
 
