@@ -180,6 +180,11 @@ Para mais informações, visite a [Documentação do Docker](https://docs.docker
 
 <br>
 
+### v1.0.2-230627
+
+- Atualização da Documentação
+- Resolvido bug onde o Github Actions não conseguia terminar o workflow após executar `docker run`
+
 ### v1.0.1-230627
 
 - Atualização do Next
