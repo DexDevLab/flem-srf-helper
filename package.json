@@ -1,0 +1,43 @@
+{
+  "name": "flem-srf-helper",
+  "description": "Aplicação utilizada para aprovar justificativas de ausência do SRF em lote, para o cliente FLEM.",
+  "version": "v1.0.0-230627",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "docs": "jsdoc --readme README.md -c jsdoc-config.json",
+    "docker:build": "docker build . -t ghcr.io/frtechdev/flem-srf-helper:latest",
+    "docker:push": "docker push ghcr.io/frtechdev/flem-srf-helper:latest",
+    "caniuse": "npm update --save caniuse-lite browserslist",
+    "clean": "yarn autoclean --force",
+    "git:clear": "bash cleargitcache.sh"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11",
+    "axios": "^0.27.2",
+    "chakra-react-select": "^4.1.4",
+    "downloadjs": "^1.4.7",
+    "framer-motion": "^6.5.1",
+    "luxon": "^3.0.1",
+    "next": "12.2.3",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-icons": "^4.4.0",
+    "react-spinners": "^0.13.4"
+  },
+  "devDependencies": {
+    "clean-jsdoc-theme": "^4.2.9",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3",
+    "jsdoc": "^4.0.2"
+  }
+}
