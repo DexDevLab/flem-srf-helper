@@ -1,7 +1,7 @@
 {
   "name": "flem-srf-helper",
   "description": "Aplicação utilizada para aprovar justificativas de ausência do SRF em lote, para o cliente FLEM.",
-  "version": "v1.0.0-230627",
+  "version": "v1.0.1-230627",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -26,7 +26,7 @@
     "downloadjs": "^1.4.7",
     "framer-motion": "^6.5.1",
     "luxon": "^3.0.1",
-    "next": "12.2.3",
+    "next": "12.2.5",
     "next-auth": "^4.22.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

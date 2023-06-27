@@ -180,6 +180,11 @@ Para mais informações, visite a [Documentação do Docker](https://docs.docker
 
 <br>
 
+### v1.0.1-230627
+
+- Atualização do Next
+- Alteração no next.config.js para output de standalone em builds
+
 ### v1.0.0-230627
 
 - Adição de script de limpeza de index de cache do Git
